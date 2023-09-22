@@ -1,0 +1,395 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+div{
+    /*list-style: none;*/
+    /*padding: 0%;(sans espace pour les liste)*/
+}
+img{
+    width: 255px;
+}
+.casenom{
+    background-color: #1d69f5;/*background: url(Blue-prismatic-abstract-picture_3840x2160.jpg);*//*background: content-box linear-gradient(blue, skyblue);*/
+    width: 645px;/*width: 65.25%;*/
+    height: 330px;
+    margin: 0 0 -341px 255px;/*top right bottom left*/
+    float: right;
+    display: flex;
+    transform: translate(0px,-334.4px);
+    text-align: center;
+}
+.cnom{
+    margin: auto;
+    color: #fff;
+}
+.nom{
+    font-size: 200%;transition: color .3s;
+}
+.nom:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+.portfolio a{
+    color: #fff;
+    text-decoration: none;
+}
+.fullprofil .profil{
+    transition: color .3s;
+}
+.fullprofil .profil:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .info{
+    transition: color .3s;
+}
+.fullprofil .info:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .interet{
+    transition: color .3s;
+}
+.fullprofil .interet:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .interet a{
+    transition: color .3s;
+    color: #fff;
+}
+.fullprofil .interet a:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .info a{
+    transition: color .3s;
+}
+.fullprofil .info a:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .langue{
+    transition: color .3s;
+}
+.fullprofil .langue:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .langue a{
+    transition: color .3s;
+}
+.fullprofil .langue a:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .log1{
+    transition: color .3s;
+}
+.fullprofil .log1:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil .log1 a{
+    transition: color .3s;
+    color: #fff;
+}
+.fullprofil .log1 a:hover{
+    color: skyblue;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+.fullprofil{
+    align-items: center;
+    width: 255px;
+    height: 100%;
+    margin-top: -25px;
+    background-color: #1d69f5;/*background: url(Blue-prismatic-abstract-picture_3840x2160.jpg);*//*background: content-box linear-gradient(blue, skyblue);*/
+    float: left;
+    color: #fff;
+}
+/*profil*/
+.fullprofil .profil{
+    padding: 20px 20px 10px 20px;/*top right bottom left*/
+}
+.fullprofil .profil h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.fullprofil .profil p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*contact*/
+.fullprofil .info{
+    padding: 0 20px 20px 20px;/*top right bottom left*/
+    list-style: none;
+}
+.fullprofil .info img{
+    width: 15px;
+}
+.fullprofil .info h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.fullprofil .info a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+}
+/*interêt*/
+.fullprofil .interet{
+    padding: 0 20px 20px 20px;/*top right bottom left*/
+}
+.fullprofil .interet h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.fullprofil .interet li{
+    color: #fff;
+}
+.fullprofil .interet li:hover{
+    color: skyblue;
+}
+.fullprofil .info a{
+    color: #fff;
+}
+/*langue*/
+.fullprofil .langue{
+    padding: 0 20px 20px 20px;/*top right bottom left*/
+    list-style: none;
+}
+.fullprofil .langue img{
+    width: 15px;
+}
+.fullprofil .langue h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.fullprofil .langue li{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Logiciel maitriser*/
+.fullprofil .log1{
+    padding: 0 20px 20px 20px;/*top right bottom left*/
+}
+.fullprofil .log1 h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.fullprofil .log1 li{
+    color: #fff;
+    text-decoration: none;
+}
+.fullprofil .log1 li:hover{
+    color: skyblue
+}
+.fullprofil hr{
+    width: 200px;
+}
+.fullcompetence{
+    margin-left: 255px;
+    position: relative;
+    bottom: 4.5px;
+    padding: 1px 0 1px 20px;/*top right bottom left*/
+}
+.fullcompetence h2{
+    color: blue;
+}
+.fullcompetence .competence1{
+    margin-right: 20px;
+}
+.fullcompetence .competence2{
+    margin-right: 20px;
+}
+.fullcompetence .competence3{
+    margin: 0 20px 20px 0;/*top right bottom left*/
+    height: 306px;
+}
+.fullcompetence .dev{
+    width: 342px;
+    list-style: none;
+    padding-right: 2.5px;
+}
+.dev h2{
+    margin: 20px 0 20px 0;/*top right bottom left*/
+}
+/*bar progression*/
+.skill{
+    display: flex;
+    width: 342px;
+}
+.skill .name{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.skill .name span{
+    margin: 0.1px 0;
+    padding: 0.1px 3px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: color .3s;
+}
+.skill .name span:hover{
+    color: blue;
+}
+.bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bar{
+    width: 225px;
+    height: 15px;
+    border-radius: 20px;
+    box-shadow: inset 6px 6px 5px #D9DADE, inset -6px -6px 5px #FFFFFF;
+}
+.bar .progress{
+    height: 100%;
+    background: linear-gradient(to right, #0e3fea, #1d69f5);
+    border-radius: 20px;
+}
+.bar:nth-child(1) .progress{
+    animation: htmlSlide 1.5s forwards;
+}
+.bar:nth-child(2) .progress{
+    animation: jsSlide 1.5s forwards;
+}
+.bar:nth-child(3) .progress{
+    animation: pySlide 1.5s forwards;
+}
+.bar:nth-child(4) .progress{
+    animation: javaSlide 1.5s forwards;
+}
+.bar:nth-child(5) .progress{
+    animation: phpSlide 1.5s forwards;
+}
+.bar:nth-child(6) .progress{
+    animation: sqlSlide 1.5s forwards;
+}
+@keyframes htmlSlide{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+@keyframes jsSlide{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+@keyframes pySlide{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+@keyframes javaSlide{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+@keyframes phpSlide{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+@keyframes sqlSlide{
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+/*bar progression*/
+
+.fullcompetence .reseau{
+    width: 240px;
+    height: 303.41px;
+    position: relative;
+    left: 357.2px;
+    bottom: 185px;
+    padding-left: 7.5px;
+    overflow: scroll;
+}
+.reseau h2{
+    margin: 1px 0 1px 0;/*top right bottom left*/
+}
+.reseau li{
+    transition: color .3s;
+}
+.reseau li:hover{
+    color: blue;
+}
+.fullcompetence .other{
+    padding-left: 2.5px;
+    width: 342px;
+    position: relative;
+    bottom: 302px;
+}
+.other h2{
+    margin: 1px 0 1px 0;/*top right bottom left*/
+}
+.other li{
+    transition: color .3s;
+}
+.other li:hover{
+    color: blue;
+}
+.link-external{
+    color: #000;
+    text-decoration: none;
+}
+.link-external, li{
+    transition: color .3s;
+}
+.link-external:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+.link-external-title, li{
+    transition: color .3s;
+}
+.link-external-title, li:hover{
+    color: skyblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link-external-title, li ul li{
+    color: #000;
+    transition: color .3s;
+}
+.link-external-title, li ul li:hover{
+    color: skyblue;
+    transition: color .3s;
+}
+main{
+	box-shadow: 30px 0px 40px rgb(196,196,196),-30px 0px 40px rgb(196,196,196);
+	margin:auto;
+	max-width:900px;
+}
