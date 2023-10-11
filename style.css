@@ -218,6 +218,7 @@ img{
     position: relative;
     bottom: 4.5px;
     padding: 1px 0 1px 20px;/*top right bottom left*/
+    height: 100%;
 }
 .fullcompetence h2{
     color: blue;
