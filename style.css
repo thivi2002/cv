@@ -12,10 +12,10 @@ img{
 
 .casenom{
     background-color: #1d69f5;/*background: url(Blue-prismatic-abstract-picture_3840x2160.jpg);*//*background: content-box linear-gradient(blue, skyblue);*/
-    width: 645px;/*width: 65.25%;*/
+    max-width: 645px;/*width: 65.25%;*/
     height: 330px;
     margin: 0 0 -341px 255px;/*top right bottom left*/
-    float: right;
+    /*float: right;*/
     display: flex;
     transform: translate(0px,-334.4px);
     text-align: center;
